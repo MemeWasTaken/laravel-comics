@@ -24,7 +24,7 @@
               </div>
             @endforeach
         </div>
-          <div> <a href="#">Load More</a> </div>
+          <div class="text-serie"> <a href="#">Load More</a> </div>
     </div>
     <div class="merchandise">
         <div class="container">

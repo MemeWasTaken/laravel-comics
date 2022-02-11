@@ -1,62 +1,118 @@
 footer {
     display: flex;
     flex-direction: column;
+
     .upper-footer {
         background-image: url('../../img/footer-bg.jpg');
         background-size: cover;
         width: 100%;
         height: 400px;
+
         .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: 80%;
             height: 400px;
+            margin: 0 auto;
+
             .col-1 {
                 display: flex;
                 justify-content: space-around;
                 width: 40%;
+
+                .col-1a {
+                    .footer-title {
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        margin-top: 1em;
+                        margin-bottom: 0.6em;
+                    }
+                    .list-footer {
+                        list-style-type: none;
+
+                        .list-item-footer {
+                            list-style-type: none;
+                            margin-bottom: 0.2em;
+
+                            .link-item-footer {
+                                color: #959595;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .col-1b {
+                    .footer-title {
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        margin-top: 1em;
+                        margin-bottom: 0.6em;
+                    }
+                    .list-footer {
+                        list-style-type: none;
+
+                        .list-item-footer {
+                            list-style-type: none;
+                            margin-bottom: 0.2em;
+
+                            .link-item-footer {
+                                color: #959595;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .col-1c {
+                    .footer-title {
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        margin-top: 1em;
+                        margin-bottom: 0.6em;
+                    }
+                    .list-footer {
+                        list-style-type: none;
+
+                        .list-item-footer {
+                            list-style-type: none;
+                            margin-bottom: 0.2em;
+
+                            .link-item-footer {
+                                color: #959595;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
             }
             .col-2 {
                 width: 60%;
                 display: flex;
                 justify-content: flex-end;
-                img {
+                .logo-dc-bc {
                     width: 60%;
                 }
             }
         }
-        h3 {
-            text-transform: uppercase;
-            color: #FFFFFF;
-            margin-top: 1em;
-            margin-bottom: 0.6em;
-        }
-        ul {
-            list-style-type: none;
-            
-            li {
-                list-style-type: none;
-                margin-bottom: 0.2em;
-                a {
-                    color: #959595;
-                    text-decoration: none;
-                }
-            }
-        }
-        
     }
+
+
     .lower-footer {
         background-color: #303030;
         width: 100%;
         height: 104px;
+
         .container {
             display: flex;
+            width: 80%;
+            margin: 0 auto;
+
             .col-lower {
                 width: 70%;
                 height: 104px;
                 display: flex;
                 align-items: center;
-                a {
+                .link-ftr-btn {
                     text-transform: uppercase;
                     color: #FFFFFF;
                     font-weight: bold;
@@ -73,22 +129,22 @@ footer {
                 height: 104px;
                 display: flex;
                 align-items: center;
-                h2 {
+                .follow-us {
                     color: #0282F9;
                     text-transform: uppercase;
                     font-size: 1.3em;
                 }
-                ul {
+                .inline-list {
                     list-style-type: none;
                     display: flex;
                     width: 70%;
                     justify-content: space-around;
                     
-                    li {
+                    .inline-item {
                         list-style-type: none;
                         margin-bottom: 0.2em;
                         display: block;
-                        a {
+                        .inline-link {
                             color: #959595;
                             text-decoration: none;
                         }
