@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  width: 85px;
+  height: 85px;
+  margin-left: 1em;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container ul li a {
+  text-transform: uppercase;
+  color: #464646;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 2.5em 0em;
+  margin: 0em 1em;
+}
+
+.container ul li a:hover,
+.container ul li a:active,
+.container ul li a.active {
+  color: #0282F9;
+  border-bottom: 5px solid #0282F9;
+}
+
+main .jumbo {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 400px;
+}
+
+main .container-series {
+  background-color: #1C1C1C;
+  width: 100%;
+}
+
+main .container-series .container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding-top: 2em;
+}
+
+main .container-series .container h2 {
+  background-color: #0282F9;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  top: -22px;
+  padding: 0.3em 1em;
+}
+
+main .container-series div {
+  text-align: center;
+  padding-top: 0.6em;
+  padding-bottom: 1em;
+}
+
+main .container-series div a {
+  text-decoration: none;
+  background-color: #0282F9;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.4em 2em;
+}
+
+main .merchandise {
+  background-color: #0282F9;
+  width: 100%;
+  height: 150px;
+}
+
+main .merchandise .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 0 2em;
+}
+
+main .merchandise .container .merchandise-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+main .merchandise .container .merchandise-cards .card {
+  display: flex;
+  align-items: center;
+}
+
+main .merchandise .container .merchandise-cards .card img {
+  width: 40px;
+  height: auto;
+}
+
+main .merchandise .container .merchandise-cards .card .merch-text {
+  color: #FFFFFF;
+  margin-left: 0.8em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+footer .upper-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+footer .upper-footer .container .col-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+footer .upper-footer .container .col-2 {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .upper-footer .container .col-2 img {
+  width: 60%;
+}
+
+footer .upper-footer h3 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+
+footer .upper-footer ul {
+  list-style-type: none;
+}
+
+footer .upper-footer ul li {
+  list-style-type: none;
+  margin-bottom: 0.2em;
+}
+
+footer .upper-footer ul li a {
+  color: #959595;
+  text-decoration: none;
+}
+
+footer .lower-footer {
+  background-color: #303030;
+  width: 100%;
+  height: 104px;
+}
+
+footer .lower-footer .container {
+  display: flex;
+}
+
+footer .lower-footer .container .col-lower {
+  width: 70%;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+footer .lower-footer .container .col-lower a {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 0.8em;
+  border: 3px solid #0282F9;
+  margin-left: 1.2em;
+}
+
+footer .lower-footer .container .col-lower-b {
+  width: 30%;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+footer .lower-footer .container .col-lower-b h2 {
+  color: #0282F9;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+footer .lower-footer .container .col-lower-b ul {
+  list-style-type: none;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+footer .lower-footer .container .col-lower-b ul li {
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  display: block;
+}
+
+footer .lower-footer .container .col-lower-b ul li a {
+  color: #959595;
+  text-decoration: none;
+}
+

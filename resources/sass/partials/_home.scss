@@ -1,0 +1,69 @@
+main {
+    .jumbo {
+        background-image: url("../../img/jumbotron.jpg");
+        height: 400px;
+    }
+    .container-series {
+        background-color: #1C1C1C;
+        width: 100%;
+        // height: 400px;
+        .container {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            padding-top: 2em;
+            h2 {
+                background-color: #0282F9;
+                color: #FFFFFF;
+                position: absolute;
+                left: 0;
+                top: -22px;
+                padding: 0.3em 1em;
+            }
+        }
+        div {
+            text-align: center;
+            padding-top: 0.6em;
+            padding-bottom: 1em;
+            a {
+                text-decoration: none;
+                background-color: #0282F9;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 0.4em 2em;
+            }       
+        }
+    }
+    .merchandise {
+        background-color: #0282F9;
+        width: 100%;
+        height: 150px;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+            padding: 0 2em;
+            .merchandise-cards {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                .card {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 40px;
+                        height: auto;
+                    }
+                    .merch-text {
+                        color: #FFFFFF;
+                        margin-left: 0.8em;
+                        font-size: 0.9em;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

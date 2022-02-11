@@ -1,0 +1,33 @@
+.container {
+    // padding: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 85px;
+        height: 85px;
+        margin-left: 1em;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        li a {
+            text-transform: uppercase;
+            color: #464646;
+            font-weight: bold;
+            display: block;
+            text-decoration: none;
+            padding: 2.5em 0em;
+            margin: 0em 1em;
+            &:hover,
+            &:active,
+            &.active {
+                color: #0282F9;
+                border-bottom: 5px solid #0282F9;
+            }
+        }
+    }
+}
