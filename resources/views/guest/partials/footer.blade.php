@@ -63,7 +63,7 @@
             <div class="col-lower-b">
                 <h2 class="follow-us"> Follow Us </h2>
                 <ul class="inline-list">
-                    <li class="inline-item" > <a class="inline-link" href="#"></a> <img src=" {{asset('img/footer-facebook.png')}} " alt=""> </li>
+                    <li class="inline-item" > <a class="inline-link" href="#"> <img src=" {{asset('img/footer-facebook.png')}} " alt=""> </a> </li>
                     <li class="inline-item" > <a class="inline-link" href="#"> <img src=" {{asset('img/footer-twitter.png')}} " alt=""> </a> </li>
                     <li class="inline-item" > <a class="inline-link" href="#"> <img src=" {{asset('img/footer-youtube.png')}} " alt=""> </a> </li>
                     <li class="inline-item" > <a class="inline-link" href="#"> <img src=" {{asset('img/footer-pinterest.png')}} " alt=""> </a> </li>

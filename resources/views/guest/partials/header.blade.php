@@ -1,17 +1,17 @@
 <header>
     <div class="container">
-        <img src="{{asset('img/dc-logo.png')}}" alt="">
-        <ul>
-            <li> <a href="#"> Characters </a> </li>
-            <li> <a href="#" class="active"> Comics </a> </li>
-            <li> <a href="#"> Movies </a> </li>
-            <li> <a href="#"> Tv </a> </li>
-            <li> <a href="#"> Games </a> </li>
-            <li> <a href="#"> Collectibles </a> </li>
-            <li> <a href="#"> Videos </a> </li>
-            <li> <a href="#"> Fans </a> </li>
-            <li> <a href="#"> News </a> </li>
-            <li> <a href="#"> Shop </a> </li>
+        <img class="img-logo-hd" src="{{asset('img/dc-logo.png')}}" alt="">
+        <ul class="lista-navbar-header">
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Characters </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr active"> Comics </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Movies </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Tv </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Games </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Collectibles </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Videos </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Fans </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> News </a> </li>
+            <li class="list-item-navbar"> <a href="#" class="link-navabr"> Shop </a> </li>
         </ul>
 
     </div>

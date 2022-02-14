@@ -19,18 +19,18 @@ html {
   justify-content: space-between;
   align-items: center;
 }
-.container img {
+.container .img-logo-hd {
   width: 85px;
   height: 85px;
   margin-left: 1em;
 }
-.container ul {
+.container .lista-navbar-header {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container ul li a {
+.container .lista-navbar-header .list-item-navbar .link-navabr {
   text-transform: uppercase;
   color: #464646;
   font-weight: bold;
@@ -39,7 +39,7 @@ html {
   padding: 2.5em 0em;
   margin: 0em 1em;
 }
-.container ul li a:hover, .container ul li a:active, .container ul li a.active {
+.container .lista-navbar-header .list-item-navbar .link-navabr:hover, .container .lista-navbar-header .list-item-navbar .link-navabr:active, .container .lista-navbar-header .list-item-navbar .link-navabr.active {
   color: #0282F9;
   border-bottom: 5px solid #0282F9;
 }

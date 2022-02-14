@@ -3,18 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
+    .img-logo-hd {
         width: 85px;
         height: 85px;
         margin-left: 1em;
     }
-    ul {
+    .lista-navbar-header {
         list-style: none;
         display: flex;
         justify-content: center;
         align-items: center;
         
-        li a {
+        .list-item-navbar .link-navabr {
             text-transform: uppercase;
             color: #464646;
             font-weight: bold;
@@ -22,6 +22,7 @@
             text-decoration: none;
             padding: 2.5em 0em;
             margin: 0em 1em;
+            
             &:hover,
             &:active,
             &.active {
