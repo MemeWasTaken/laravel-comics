@@ -1,0 +1,255 @@
+.main-comic {
+    
+    .current-comic {
+        background-color: #0282F9;
+        width: 100%;
+        height: 70px;
+        
+        .container-comic {
+            position: relative;
+            width: 60%;
+            margin: 0 auto;
+
+            .overlay-thumb {
+                position: absolute;
+                left: 0;
+                top: -240px;
+
+                .comic-book {
+                    background-color: #00A9D9;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                    padding: 0.3em;
+                    position: absolute;
+                }
+                .comic-gallery {
+                    background-color: #00A9D9;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-size: 0.8em;
+                    padding: 0.3em;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .row-desc {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        padding: 6em 0;
+
+        .comic-desc {
+            position: relative;
+            width: 65%;
+    
+            .title-comic {
+                color: #003F5E;
+                text-transform: uppercase;
+            }
+    
+            .green-box {
+                display: flex;
+                margin: 1.2em 0;
+                width: 100%;
+                
+                .left {
+                    background-color: #55BA59;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 77%;
+                    padding: 1em;
+    
+                    .price {
+    
+                        .price-text {
+                            color: #bafd93;
+                            font-weight: bold;
+                        }
+                        .dollar-price {
+                            color: #ffffff;
+                            font-weight: bold;
+                        }
+                        
+                    }
+                    .available {
+                        color: #bafd93;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding-right: 0.5em;
+                    }
+                }
+                
+                .right {
+                    background-color: #55BA59;
+                    border-left: 2px solid #419045;
+                    padding: 1em;
+                    
+                    .check-av {
+                        color: #ffffff;
+                        font-weight: bold;
+                    }
+                }
+            }
+    
+            .par-comic {
+                color: #7b7b7b;
+                font-size: 0.95em;
+                font-weight: bold;
+                width: 100%;
+                line-height: 1.5em;
+            }
+        }
+
+        .advertisement {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 35%;
+
+
+            .adv-text {
+                color: #555555;
+                text-transform: uppercase;
+                margin-bottom: 0.8em;
+            }
+        }
+    }
+
+    .row-info {
+        background-color: #F6F6F6;
+        border-top: 1px solid #E3E3E3;
+        padding-bottom: 3em;
+        width: 100%;
+
+        .comic-info {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: 0 auto;
+            padding: 2em 0;
+
+            .talent-col {
+                display: flex;
+                flex-direction: column;
+                width: 48%;
+
+                .talent-text {
+                    color: #003F5E;
+                }
+
+                .art-by {
+                    display: flex;
+                    margin-top: 1.5em;
+                    padding: 0.8em 0;
+                    border-top: 1px solid #e3e3e3;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    .left-art {
+                        color: #003F5E;
+                        width: 70%;
+                    }
+                    .right-art {
+                        
+                        span {
+                            font-size: 0.8em;
+
+                            a {
+                                color: #00B0E1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+                .written-by {
+                    display: flex;
+                    border-bottom: 1px solid #e3e3e3;
+                    padding: 0.8em 0;
+
+
+                    .left-wrt {
+                        color: #003F5E;
+                        width: 79%;
+                    }
+                    .right-wrt {
+
+                        span {
+                            font-size: 0.8em;
+
+                            a {
+                                color: #00B0E1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .specs-col {
+                display: flex;
+                flex-direction: column;
+                width: 48%;
+
+                .specs-text {
+                    color: #003F5E;
+                }
+
+                .series {
+                    display: flex;
+                    margin-top: 1.5em;
+                    padding: 0.8em 0;
+                    border-top: 1px solid #e3e3e3;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    .left-ser {
+                        color: #003F5E;
+                        width: 70%;
+                    }
+                    .right-ser {
+                        a {
+                            color: #00B0E1;
+                            text-transform: uppercase;
+                            font-size: 0.9em;
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .us-price {
+                    display: flex;
+                    padding: 0.8em 0;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    .left-prc {
+                        color: #003F5E;
+                        width: 70%;
+                    }
+                    .right-prc {
+                        color: #000000;
+                    }
+                }
+                .on-sale-date {
+                    display: flex;
+                    padding: 0.8em 0;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    .left-osd {
+                        color: #003F5E;
+                        width: 70%;
+                    }
+                    .right-ond {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -8,23 +8,25 @@
 
   <main>
           
-    <div class="jumbo">
+    {{-- <div class="jumbo">
 
-    </div>
+    </div> --}}
 
     <div class="container-series">
         <div class="container">
             <h2> Current Series </h2>
             @foreach ($comics as $comic)
               <div class="serie">
-                <div class="container-img">
-                  <img src="{{ $comic['thumb'] }}" alt="">
-                </div>
-                <h3> {{ $comic['title'] }}</h3>
+                <a href=" {{ route('comic', $comic['id']) }} " class="link-comic">
+                  <div class="container-img">
+                    <img src="{{ $comic['thumb'] }}" alt="">
+                  </div>
+                  <h3> {{ $comic['title'] }}</h3>
+                </a>
               </div>
             @endforeach
         </div>
-          <div class="text-serie"> <a href="#">Load More</a> </div>
+          <div class="text-serie"> <a class="link-load-more" href="#">Load More</a> </div>
     </div>
     <div class="merchandise">
         <div class="container">

@@ -22,7 +22,7 @@
             text-decoration: none;
             padding: 2.5em 0em;
             margin: 0em 1em;
-            
+
             &:hover,
             &:active,
             &.active {
@@ -31,4 +31,10 @@
             }
         }
     }
+}
+
+.jumbo {
+    background-image: url("../../img/jumbotron.jpg");
+    background-position-x: center;
+    height: 400px;
 }

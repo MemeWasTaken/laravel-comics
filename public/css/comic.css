@@ -1,0 +1,208 @@
+.main-comic .current-comic {
+  background-color: #0282F9;
+  width: 100%;
+  height: 70px;
+}
+.main-comic .current-comic .container-comic {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+.main-comic .current-comic .container-comic .overlay-thumb {
+  position: absolute;
+  left: 0;
+  top: -240px;
+}
+.main-comic .current-comic .container-comic .overlay-thumb .comic-book {
+  background-color: #00A9D9;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 0.3em;
+  position: absolute;
+}
+.main-comic .current-comic .container-comic .overlay-thumb .comic-gallery {
+  background-color: #00A9D9;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0.3em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.main-comic .row-desc {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 6em 0;
+}
+.main-comic .row-desc .comic-desc {
+  position: relative;
+  width: 65%;
+}
+.main-comic .row-desc .comic-desc .title-comic {
+  color: #003F5E;
+  text-transform: uppercase;
+}
+.main-comic .row-desc .comic-desc .green-box {
+  display: flex;
+  margin: 1.2em 0;
+  width: 100%;
+}
+.main-comic .row-desc .comic-desc .green-box .left {
+  background-color: #55BA59;
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+  padding: 1em;
+}
+.main-comic .row-desc .comic-desc .green-box .left .price .price-text {
+  color: #bafd93;
+  font-weight: bold;
+}
+.main-comic .row-desc .comic-desc .green-box .left .price .dollar-price {
+  color: #ffffff;
+  font-weight: bold;
+}
+.main-comic .row-desc .comic-desc .green-box .left .available {
+  color: #bafd93;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 0.5em;
+}
+.main-comic .row-desc .comic-desc .green-box .right {
+  background-color: #55BA59;
+  border-left: 2px solid #419045;
+  padding: 1em;
+}
+.main-comic .row-desc .comic-desc .green-box .right .check-av {
+  color: #ffffff;
+  font-weight: bold;
+}
+.main-comic .row-desc .comic-desc .par-comic {
+  color: #7b7b7b;
+  font-size: 0.95em;
+  font-weight: bold;
+  width: 100%;
+  line-height: 1.5em;
+}
+.main-comic .row-desc .advertisement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 35%;
+}
+.main-comic .row-desc .advertisement .adv-text {
+  color: #555555;
+  text-transform: uppercase;
+  margin-bottom: 0.8em;
+}
+.main-comic .row-info {
+  background-color: #F6F6F6;
+  border-top: 1px solid #E3E3E3;
+  padding-bottom: 3em;
+  width: 100%;
+}
+.main-comic .row-info .comic-info {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.main-comic .row-info .comic-info .talent-col {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.main-comic .row-info .comic-info .talent-col .talent-text {
+  color: #003F5E;
+}
+.main-comic .row-info .comic-info .talent-col .art-by {
+  display: flex;
+  margin-top: 1.5em;
+  padding: 0.8em 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main-comic .row-info .comic-info .talent-col .art-by .left-art {
+  color: #003F5E;
+  width: 70%;
+}
+.main-comic .row-info .comic-info .talent-col .art-by .right-art span {
+  font-size: 0.8em;
+}
+.main-comic .row-info .comic-info .talent-col .art-by .right-art span a {
+  color: #00B0E1;
+  text-decoration: none;
+}
+.main-comic .row-info .comic-info .talent-col .written-by {
+  display: flex;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 0.8em 0;
+}
+.main-comic .row-info .comic-info .talent-col .written-by .left-wrt {
+  color: #003F5E;
+  width: 79%;
+}
+.main-comic .row-info .comic-info .talent-col .written-by .right-wrt span {
+  font-size: 0.8em;
+}
+.main-comic .row-info .comic-info .talent-col .written-by .right-wrt span a {
+  color: #00B0E1;
+  text-decoration: none;
+}
+.main-comic .row-info .comic-info .specs-col {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.main-comic .row-info .comic-info .specs-col .specs-text {
+  color: #003F5E;
+}
+.main-comic .row-info .comic-info .specs-col .series {
+  display: flex;
+  margin-top: 1.5em;
+  padding: 0.8em 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main-comic .row-info .comic-info .specs-col .series .left-ser {
+  color: #003F5E;
+  width: 70%;
+}
+.main-comic .row-info .comic-info .specs-col .series .right-ser a {
+  color: #00B0E1;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-comic .row-info .comic-info .specs-col .us-price {
+  display: flex;
+  padding: 0.8em 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main-comic .row-info .comic-info .specs-col .us-price .left-prc {
+  color: #003F5E;
+  width: 70%;
+}
+.main-comic .row-info .comic-info .specs-col .us-price .right-prc {
+  color: #000000;
+}
+.main-comic .row-info .comic-info .specs-col .on-sale-date {
+  display: flex;
+  padding: 0.8em 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main-comic .row-info .comic-info .specs-col .on-sale-date .left-osd {
+  color: #003F5E;
+  width: 70%;
+}
+.main-comic .row-info .comic-info .specs-col .on-sale-date .right-ond {
+  color: #000000;
+}

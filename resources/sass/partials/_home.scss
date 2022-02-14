@@ -1,10 +1,10 @@
 main {
-    .jumbo {
-        background-image: url("../../img/jumbotron.jpg");
-        background-position-x: center;
-        height: 400px;
+    // .jumbo {
+    //     background-image: url("../../img/jumbotron.jpg");
+    //     background-position-x: center;
+    //     height: 400px;
 
-    }
+    // }
     .container-series {
         background-color: #1C1C1C;
         width: 100%;
@@ -38,44 +38,37 @@ main {
                 margin: 0.2em;
                 padding: 1em;
 
-                .container-img {
-                    width: 185px;
-                    height: 185px;
-                    overflow: hidden;
+                .link-comic {
+                    text-decoration: none;
 
-                    img {
+                    .container-img {
                         width: 185px;
-                        height: 280px;
-                        margin-left: 0;
+                        height: 185px;
+                        overflow: hidden;
+    
+                        img {
+                            width: 185px;
+                            height: 280px;
+                            margin-left: 0;
+                        }
+                    }
+                    
+                    h3 {
+                        color: #FFFFFF;
+                        font-size: 0.9em;
+                        margin-top: 1.5em;
+                        text-align: start;
                     }
                 }
-                
-                h3 {
-                    color: #FFFFFF;
-                    font-size: 0.9em;
-                    margin-top: 1.5em;
-                    text-align: start;
-                }
+
             }
-        }
-        div {
-            text-align: center;
-            padding-top: 0.6em;
-            padding-bottom: 1em;
-            a {
-                text-decoration: none;
-                background-color: #0282F9;
-                color: #FFFFFF;
-                text-align: center;
-                padding: 0.4em 2em;
-            }       
         }
         .text-serie {
             text-align: center;
             padding-top: 0.6em;
             padding-bottom: 1em;
 
-            a {
+            .link-load-more {
                 text-decoration: none;
                 background-color: #0282F9;
                 color: #FFFFFF;
